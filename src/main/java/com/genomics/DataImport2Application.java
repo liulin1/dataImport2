@@ -7,8 +7,10 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+import java.time.LocalDateTime;
 import java.util.concurrent.Executors;
 import java.util.concurrent.ScheduledExecutorService;
+import java.util.concurrent.ScheduledFuture;
 
 @SpringBootApplication
 public class DataImport2Application implements CommandLineRunner {
@@ -44,6 +46,15 @@ public class DataImport2Application implements CommandLineRunner {
                 , frequency, maxLifetime, dataBasePath);
         ScheduledExecutorService scheduledExecutorService = Executors.newScheduledThreadPool(2);
 
+        final int[] times = {0};
+        final LocalDateTime[] dateTimes = {
+                LocalDateTime.now(),
+                LocalDateTime.now()
+        };
+        final ScheduledFuture[] futures = new ScheduledFuture[]{
+//                submitBackup(scheduExec, dateTimes),
+//                submitPrjAndTruncate(scheduExec, times, dateTimes)
+        };
     }
 
 
