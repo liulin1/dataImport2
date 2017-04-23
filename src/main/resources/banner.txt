@@ -1,0 +1,11 @@
+${AnsiColor.BRIGHT_GREEN}
+	ACGTACGTACGTT			 CGTATCGTAG        ACGTACGTACT
+	ACT      	AG		   ATT		ACT            TCT
+	ACT       	ACT		   TCT                     AGT
+	ACT        ACT         AGT                     GCT
+	ACGTACGTACGT           GCT                     ACG
+	ACT       ACGTT        ACT     ACGTT           ACT
+	ACT         ACT        TGT		 ACT           GCT
+	ACT       	 AG        ACG       ACT           AGT
+	ACGTACGTACGTAG           CGTACTGTACT       ACGTACGTACT
+Spring Boot Version: ${spring-boot.version}${spring-boot.formatted-version}
